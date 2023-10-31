@@ -1,0 +1,40 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+    background-color: #0F0F0F;
+}
+
+.container{
+    max-width: 64em;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.padding-global{
+    padding-left:5%;
+    padding-right:5%;
+}
+
+section{
+    padding:40px 0;
+}
+
+.section{
+    &-subtitle{
+        margin:0 0 6px 0;
+        color:rgb(97,97,97);
+        color:#FF0034;
+    }
+
+    &-title{
+        margin-top:0;
+    }
+    
+}

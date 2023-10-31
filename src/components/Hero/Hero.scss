@@ -1,0 +1,12 @@
+#hero{
+    h1{
+        font-size:2.5rem;
+        margin: 0;
+    }
+}
+
+.hero{
+    &-content{
+        margin:1.5rem 0;
+    }
+}
