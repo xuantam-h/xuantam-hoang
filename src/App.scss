@@ -8,6 +8,10 @@ body{
     background-color: #0F0F0F;
 }
 
+strong{
+    color:#FF0034;
+}
+
 .container{
     max-width: 64em;
     margin: 0 auto;
@@ -31,6 +35,7 @@ section{
         margin:0 0 6px 0;
         color:rgb(97,97,97);
         color:#FF0034;
+        font-size: .8rem;
     }
 
     &-title{
