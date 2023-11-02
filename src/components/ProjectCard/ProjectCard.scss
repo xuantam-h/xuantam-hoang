@@ -6,8 +6,11 @@
 
     .project-item{
         position: relative;
+        border:3px solid transparent;
+        transition: border 250ms ease-in-out;
 
         &:hover{
+            border-color:#FF0034;
             .project-overlay{
                 opacity: 1;
             }
