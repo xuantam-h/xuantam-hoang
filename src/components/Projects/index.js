@@ -13,7 +13,7 @@ const Projects = () => {
                         <ProjectCard
                         key={index} 
                         title={project.name} 
-                        description={project.description} 
+                        description={project.summary} 
                         tags={project.tags}
                         image={project.image}
                         url={project.url}

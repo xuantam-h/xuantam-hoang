@@ -5,12 +5,11 @@
     span{
         background-color: white;
         width: 30px;
-        height: 3px;
+        height: 2px;
         display: block;
         margin-bottom: 5px;
         &:nth-child(1), &:nth-child(3){
             width:20px;
-            background-color: #FF0034;
         }
     }
 }
