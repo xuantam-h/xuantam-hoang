@@ -1,0 +1,38 @@
+.projects-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    gap:2rem;
+
+    .project-image{
+        img{
+            filter: grayscale(1);
+            width: 100%;
+            object-fit: cover;
+            min-height:400px;
+        }
+    }
+
+    .project-title{
+        margin-top:0;
+    }
+
+    .project-tags{
+        padding: 0;
+        list-style: none;
+        display: flex;
+        gap:1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        .project-tag{
+            font-size:.7rem;
+            padding: .5rem 1rem;
+            background-color: red;
+        }
+    }
+
+    .modal{
+        &-closed{
+            display: none;
+        }
+    }
+}
