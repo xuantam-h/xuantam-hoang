@@ -3,7 +3,7 @@ import Tag from '../Tag';
 import './ProjectCard.scss';
 import Button from '../Button';
 
-const ProjectCard = ({title, description, tags, image, url}) => {
+const ProjectCard = ({title, summary, description, tags, image, url}) => {
 
     const [isModal, setModal] = useState(false);
 
@@ -23,7 +23,7 @@ const ProjectCard = ({title, description, tags, image, url}) => {
                 <div className="project-overlay">
                     <div className="project-overlay-content">
                         <h3 className="project-title">{title}</h3>
-                        <p className="project-description">{description}</p>
+                        <p className="project-description">{summary}</p>
                         <Button btnClass={"btn"} onClick={handleModal}>Voir plus</Button>
                     </div>
                 </div>
@@ -36,6 +36,9 @@ const ProjectCard = ({title, description, tags, image, url}) => {
                     <img src={image} alt={title}/>
                 </div>
                 <div className="project-modal-content">
+                    <p className="project-modal-title">{title}</p>
+                    <p className="project-modal-description">{description}</p>
+                    <a href={url} target="_blank" rel="noreferrer">Lien Github</a>
                     <ul className="project-tags">
                             {tags.map((tag,index) => 
                                 <Tag 
@@ -44,9 +47,6 @@ const ProjectCard = ({title, description, tags, image, url}) => {
                                 />
                             )}
                     </ul>
-                    <p className="project-modal-title">{title}</p>
-                    <p className="project-modal-description">{description}</p>
-                    <a href={url} target="_blank" rel="noreferrer">Lien Github</a>
                 </div>
             </div>
         </div>

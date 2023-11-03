@@ -1,6 +1,6 @@
 .projects-list{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     gap:2rem;
     margin-top:3rem;
 
@@ -10,7 +10,6 @@
         transition: border 250ms ease-in-out;
 
         &:hover{
-            border-color:#FF0034;
             .project-overlay{
                 opacity: 1;
             }
@@ -65,14 +64,15 @@
         padding: 0;
         list-style: none;
         display: flex;
-        gap:1rem;
-        justify-content: center;
+        gap:.5rem;
         flex-wrap: wrap;
-        margin:0;
+        margin:2rem 0 0 0;
         .project-tag{
             font-size:.7rem;
-            padding: .5rem 1rem;
-            background-color: #FF0034;
+            padding: .3rem 1rem;
+            border: 2px solid #FF0034;
+            color: #FF0034;
+            text-transform: uppercase;
         }
     }
 
@@ -117,21 +117,24 @@
     max-width: 60%;
 
     .project-modal-image{
-        max-width: 300px;
+        max-width: 18.75rem;
+        min-height: 25.25rem;
         img{
             display: block;
             width: 100%;
             object-fit: cover;
             height: 100%;
+            object-position: right;
         }
     }
 
     .project-modal-content{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         padding: 2rem;
         position: relative;
+        text-align: left;
+        justify-content: center;
         
         p{
             color:#797a7b;
@@ -143,6 +146,7 @@
             font-size: 2rem;
             margin-bottom: 1rem;
             color:#282828;
+            font-family: 'Bebas Neue', sans-serif;  
         }
     }
 }

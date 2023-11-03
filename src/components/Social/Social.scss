@@ -1,0 +1,12 @@
+.social-list{
+    display: flex;
+    a{
+        transition: all 250ms ease-in-out;
+        &:hover{
+            filter:brightness(50%);
+        }
+    }
+    img{
+        max-width: 20px;
+    }
+}

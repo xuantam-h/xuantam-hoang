@@ -3,24 +3,27 @@ const skills = [
     'CSS',
     'JavaScript',
     'PHP',
+    'Git',
     'React',
+    'Create-React-App',
     'Redux',
     'Redux Toolkit',
     'SASS',
     'Bootstrap',
     'Tailwind',
     'MongoDB',
+    'Node.js',
     'Swagger',
 ]
 
 const projects = [
     {
         name: "Argent Bank",
-        tags: ["HTML", "CSS", "React", "React-router", "Redux", "Redux-toolkit", "MongoDB", "Swagger"],
+        tags: ["HTML", "CSS", "React", "Create-react-app", "React-router", "Redux", "Redux-toolkit", "MongoDB", "Swagger"],
         url: "https://github.com/xuantam-h/ArgentBank-website",
         image: "./project-argentbank.webp",
         summary: "Projet d'une application bancaire sous React, gestion des states avec Redux, appel API avec RTK",
-        description: "",
+        description: "Création d'une application bancaire avec Create React App (CRA). La gestion des states se fait avec Redux. Authentification des utilisateurs avec token (JWT). Appel API avec RTK et création d'endpoints au niveau du Swagger pour gérer les transactions bancaires.",
     },
     {
         name: "Kasa",
@@ -42,7 +45,7 @@ const projects = [
         name: "Oh my Food !",
         tags: ["HTML", "CSS", "Responsive Web Design", "Animations"],
         url: "https://github.com/xuantam-h/p4-ohmyfood",
-        image: "./project-kasa.webp",
+        image: "./project-ohmyfood.webp",
         summary: "Projet de création d'un site de livraison de plats en HTML/CSS. Approche mobile-first.",
         description: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
     },
@@ -64,4 +67,17 @@ const projects = [
     },
 ]
 
-export { skills, projects }
+const social = [
+    {
+        name: "Github",
+        url: "https://github.com/xuantam-h",
+        image: "./github-mark-white.svg",
+    },
+    {
+        name: "",
+        url: "",
+        image: "",
+    },
+]
+
+export { skills, projects, social }

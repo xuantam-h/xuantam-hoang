@@ -3,9 +3,9 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Skill from './components/Skill';
-import Button from './components/Button';
 import About from './components/About';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         <About/>
         <Projects/>
         <Skill/>
+        <Contact/>
         <Footer/>
     </div>
   );

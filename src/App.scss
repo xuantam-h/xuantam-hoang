@@ -13,12 +13,25 @@ body{
     background-color: $black;
 }
 
+h1,h2,h3,h4{
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 1;
+}
+
+h2{
+    font-size:3rem;
+}
+
+h3{
+    font-size:2rem;
+}
+
 strong{
-    color:$primary;
+    color:white;
 }
 
 .container{
-    max-width: 64em;
+    max-width: 80em;
     margin: 0 auto;
 }
 
@@ -37,14 +50,14 @@ section{
 
 .section{
     &-subtitle{
-        margin:0 0 6px 0;
-        color:rgb(97,97,97);
+        margin:0;
         color:$primary;
-        font-size: .8rem;
+        font-size: 2rem;
+        font-weight: 800;
     }
 
     &-title{
-        margin-top:0;
+        margin:0;
     }
     
 }
