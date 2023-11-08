@@ -1,14 +1,18 @@
 @import '../../variables.scss';
 
 #hero{
-    margin-top:4rem;
+    @include tablet{
+        margin-top:4rem;
+    }
     h1{
-        font-size:4rem;
+        font-size:3rem;
         margin: 0;
         line-height: 1;
+        @include tablet{
+            font-size:4rem;
+        }
         span{
             color:$primary;
-            display: block;
         }
     }
 }

@@ -8,12 +8,16 @@ const skills = [
     'Create-React-App',
     'Redux',
     'Redux Toolkit',
-    'SASS',
-    'Bootstrap',
-    'Tailwind',
     'MongoDB',
     'Node.js',
     'Swagger',
+    'WordPress',
+    'Drupal',
+    'SASS',
+    'Bootstrap',
+    'Tailwind',
+    'Figma',
+    'Adobe XD',
 ]
 
 const projects = [
@@ -85,4 +89,21 @@ const social = [
     },
 ]
 
-export { skills, projects, social }
+const experiences = [
+    {
+        company: "Publicore",
+        year: "2021-2022",
+        location: "Colmar (68)",
+        title: "Intégrateur Web",
+        description: "",
+    },
+    {
+        company: "Cekome",
+        year: "2018-2019",
+        location: "Colmar (68)",
+        title: "Intégrateur Web",
+        description: "",
+    }
+]
+
+export { skills, projects, social, experiences }

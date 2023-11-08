@@ -66,15 +66,11 @@
         padding: 0;
         list-style: none;
         display: flex;
-        gap:.5rem;
+        gap:.7rem;
         flex-wrap: wrap;
         margin:2rem 0 0 0;
-        .project-tag{
-            font-size:.7rem;
-            padding: .3rem 1rem;
-            border: 2px solid $primary;
-            color: $primary;
-            text-transform: uppercase;
+        .skills-item{
+            color:$primary;
         }
     }
 
@@ -143,12 +139,21 @@
             margin:0;
         }
 
+        .project-modal-title-container{
+            gap:1rem;
+        }
         .project-modal-title{
             font-weight: 800;
             font-size: 2rem;
-            margin-bottom: 1rem;
+            margin-bottom: 0;
             color:#282828;
             font-family: $heading-font;  
+        }
+
+        a{
+            img{
+                width: 20px;
+            }
         }
     }
 }

@@ -37,11 +37,17 @@ const ProjectCard = ({title, summary, description, tags, image, url}) => {
                     <img src={image} alt={title}/>
                 </div>
                 <div className="project-modal-content">
-                    <p className="project-modal-title">{title}</p>
+                    <div className="project-modal-title-container flex-container flex-vertical-center">
+                        <p className="project-modal-title">{title}</p>
+                        {url && 
+                            <a href={url} target="_blank" rel="noreferrer">
+                                <img src={github} alt="Logo Github"/>
+                            </a>
+                        }
+                        
+                    </div>
                     <p className="project-modal-description">{description}</p>
-                    <a href={url} target="_blank" rel="noreferrer">
-                        <img src={github} alt="Logo Github"/>
-                    </a>
+                    
                     <ul className="project-tags">
                             {tags.map((tag,index) => 
                                 <Tag 

@@ -16,7 +16,10 @@ h1,h2,h3,h4{
 }
 
 h2{
-    font-size:3rem;
+    font-size:2rem;
+    @include tablet{
+        font-size:3rem;  
+    }
 }
 
 h3{
@@ -62,12 +65,34 @@ section{
     &-subtitle{
         margin:0;
         color:$primary;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 800;
+        @include tablet{
+            font-size: 2rem; 
+        }
     }
 
     &-title{
         margin:0 0 1rem 0;
     }
     
+}
+
+.title-line{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    font-family: $heading-font;
+    font-size: 1.5rem;
+    &:after{
+        content:'';
+        width:100px;
+        display: block;
+        height: 1px;
+        background-color: #1c1c1c;
+        @include tablet{
+            width:150px;
+        }
+    }
 }

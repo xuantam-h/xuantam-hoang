@@ -1,9 +1,15 @@
 @import '../../variables.scss';
 
+#about{
+    .flex-container{
+        gap:5rem;
+    }
+}
+
 .skills{
     &-list{
         display: flex;
-        gap:1rem;
+        gap:.7rem;
         list-style: none;
         flex-wrap: wrap;
         padding: 0;
@@ -16,5 +22,6 @@
         border:2px solid $primary;
         border-radius: 5px;
         font-size: .9rem;
+        text-transform: uppercase;
     }
 }

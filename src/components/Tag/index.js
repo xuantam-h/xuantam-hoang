@@ -1,6 +1,6 @@
 const Tag = ({content}) => {
     return (
-        <li className="project-tag">{content}</li>
+        <li className="skills-item">{content}</li>
     );
 };
 
