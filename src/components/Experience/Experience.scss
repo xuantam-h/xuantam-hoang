@@ -1,10 +1,13 @@
 @import '../../variables.scss';
 
 .experience{
+    &-hidden{
+        display: none;
+    }
     &-list{
         margin: 0 auto;
         @include tablet{
-            max-width: 80%;
+            max-width: 60%;
         }
     }
     &-item{
@@ -19,16 +22,32 @@
         }
     }
     &-header{
-        margin-bottom: 2rem;
+        margin-bottom: 0;
+        background: none;
+        border: none;
+        color: $white;
+        font-family: $heading-font;
+        padding: 0;
+        line-height: 1;
+        text-align: left;
+        cursor: pointer;
+        width: 100%;
     }
     &-company{
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: 0;
         font-weight: 800;
         font-family: $heading-font;
         line-height: 1;
+        @include tablet{
+            font-size: 2rem;
+        }
     }
     &-title{
         margin:0;
+        font-family: $main-font;
+    }
+    &-content{
+        margin-top:2rem;
     }
 }

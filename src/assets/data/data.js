@@ -106,6 +106,14 @@ const experiences = [
         title: "Intégrateur Web",
         description: "Premier emploi obtenu dans le milieu du Web après avoir obtenu mon Master CAWEB. Développement, intégration et graphisme de sites sous le CMS WordPress. Création d'identités visuelles (logo, webdesign)",
         techs: ["HTML", "CSS", "JavaScript", "PHP", "WordPress", "Adobe Photoshop", "GIMP"],
+    },
+    {
+        company: "Observatoire Régional du Tourisme d'Alsace (ORTA)",
+        year: "2018-2019",
+        location: "Colmar (68)",
+        title: "Apprenti consultant SEO - rédacteur Web",
+        description: "Apprentissage réalisé dans le cadre de mon Master en tant que rédacteur Web. Mes missions consistaient à promouvoir l'observatoire sur les réseaux sociaux pour les professionnels (B2B) et d'alimenter la rubrique Blog du site. J'ai été amené à concevoir des visuels et des ",
+        techs: ["HTML", "CSS", "SEO", "Réseaux sociaux", "Rédaction", "Adobe Photoshop"],
     }
 ]
 
