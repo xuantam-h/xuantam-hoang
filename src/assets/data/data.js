@@ -96,8 +96,8 @@ const experiences = [
         year: "2021-2022",
         location: "Colmar (68)",
         title: "Intégrateur Web",
-        description: "J'ai été amené à travailler dans cette agence Web à taille humaine pendant un an. A l'aide du CMS WordPress et du CMS Prima créé sur-mesure, j'ai été chargé de développer, intégrer et gérer la maintenance de sites vitrines et e-commerce. En plus de mes missions d'intégrateur, j'ai également eu l'opportunité de traduire et de localiser des sites des clients de l'anglais vers le français. J'utilisais également les outils de PAO pour réaliser des brochures et créer des visuels à destination des newsletters.",
-        techs: ["HTML", "CSS", "JavaScript", "PHP", "WordPress", "Drupal", "Bootstrap", "Adobe XD", "Adobe InDesign", "Adobe Photoshop"],
+        description: "J'ai été amené à rejoindre cette agence Web à taille humaine pendant un an. A l'aide du CMS WordPress et du CMS Prima créé sur-mesure, j'ai été chargé de développer, intégrer et gérer la maintenance de sites vitrines et e-commerce. En plus de mes missions d'intégrateur, j'ai également eu l'opportunité de traduire et de localiser des sites des clients de l'anglais vers le français. J'utilisais également les outils de PAO pour réaliser des brochures et créer des visuels à destination des newsletters.",
+        techs: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WordPress", "Drupal", "Bootstrap", "Adobe XD", "Adobe InDesign", "Adobe Photoshop"],
     },
     {
         company: "Cekome",
@@ -105,13 +105,13 @@ const experiences = [
         location: "Colmar (68)",
         title: "Intégrateur Web",
         description: "Premier emploi obtenu dans le milieu du Web après avoir obtenu mon Master CAWEB. Développement, intégration et graphisme de sites sous le CMS WordPress. Création d'identités visuelles (logo, webdesign)",
-        techs: ["HTML", "CSS", "JavaScript", "PHP", "WordPress", "Adobe Photoshop", "GIMP"],
+        techs: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WordPress", "Adobe Photoshop", "GIMP"],
     },
     {
-        company: "Observatoire Régional du Tourisme d'Alsace (ORTA)",
+        company: "Observatoire Régional du Tourisme d'Alsace",
         year: "2018-2019",
         location: "Colmar (68)",
-        title: "Apprenti consultant SEO - rédacteur Web",
+        title: "Apprenti consultant SEO - Rédacteur Web",
         description: "Apprentissage réalisé dans le cadre de mon Master en tant que rédacteur Web. Mes missions consistaient à promouvoir l'observatoire sur les réseaux sociaux pour les professionnels (B2B) et d'alimenter la rubrique Blog du site. J'ai été amené à concevoir des visuels et des ",
         techs: ["HTML", "CSS", "SEO", "Réseaux sociaux", "Rédaction", "Adobe Photoshop"],
     }

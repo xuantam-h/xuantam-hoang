@@ -1,9 +1,6 @@
 @import '../../variables.scss';
 
 .experience{
-    &-hidden{
-        display: none;
-    }
     &-list{
         margin: 0 auto;
         @include tablet{
@@ -32,6 +29,18 @@
         text-align: left;
         cursor: pointer;
         width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img{
+            width: 5px;
+            transform: rotate(-180deg);
+            transition: transform 200ms ease-in-out;
+        }
+        .arrow-enabled{
+            transform:rotate(-90deg);
+        }
     }
     &-company{
         font-size: 1.5rem;
@@ -39,15 +48,33 @@
         font-weight: 800;
         font-family: $heading-font;
         line-height: 1;
+        color:$primary;
         @include tablet{
             font-size: 2rem;
         }
     }
     &-title{
-        margin:0;
+        margin:.2rem 0 0 0;
         font-family: $main-font;
+        font-size:.9rem;
+        display: block;
+        font-weight: normal;
+        color:$white;
     }
     &-content{
+        max-height: 0;
+        overflow: hidden;
+        transition: all 200ms ease-in-out;
+    }
+    &-hidden{
+        opacity: 0;
+        max-height: 0;
+    }
+
+    &-visible{
+        opacity: 1;
+        max-height: fit-content;
         margin-top:2rem;
     }
+
 }
