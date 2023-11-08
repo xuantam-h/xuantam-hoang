@@ -1,16 +1,17 @@
+@import '../../variables.scss';
+
 .btn{
-    border:3px solid #FF0034;
+    border:3px solid $primary;
     padding: 1rem 2rem;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: $main-font;
     background-color: transparent;
-    color:#fff;
+    color:$white;
     font-weight: 800;
     transition: 250ms background ease-in-out;
     cursor: pointer;
     font-size: 1rem;
-    letter-spacing: 2px;
-
+    text-transform: uppercase;
     &:hover{
-        background-color: #FF0034;
+        background-color: $primary;
     }
 }

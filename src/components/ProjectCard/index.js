@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Tag from '../Tag';
 import './ProjectCard.scss';
 import Button from '../Button';
+import github from './../../assets/images/github-mark-white.svg';
 
 const ProjectCard = ({title, summary, description, tags, image, url}) => {
 
@@ -38,7 +39,9 @@ const ProjectCard = ({title, summary, description, tags, image, url}) => {
                 <div className="project-modal-content">
                     <p className="project-modal-title">{title}</p>
                     <p className="project-modal-description">{description}</p>
-                    <a href={url} target="_blank" rel="noreferrer">Lien Github</a>
+                    <a href={url} target="_blank" rel="noreferrer">
+                        <img src={github} alt="Logo Github"/>
+                    </a>
                     <ul className="project-tags">
                             {tags.map((tag,index) => 
                                 <Tag 

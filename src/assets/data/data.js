@@ -50,11 +50,11 @@ const projects = [
         description: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
     },
     {
-        name: "Sophie Bluel",
-        tags: ["HTML", "CSS", "JavaScript", "Swagger", "Node.js"],
-        url: "https://github.com/xuantam-h/portfolio-sophie-bluel",
+        name: "Nina Carducci",
+        tags: ["SEO", "Rich Snippet", "WAVE", "Référencement local"],
+        url: "https://github.com/xuantam-h/ninacarducci",
         image: "./project-kasa.webp",
-        summary: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
+        summary: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site.",
         description: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
     },
     {
@@ -74,9 +74,14 @@ const social = [
         image: "./github-mark-white.svg",
     },
     {
-        name: "",
+        name: "LinkedIn",
+        url: "https://fr.linkedin.com/in/xuan-tam-hoang-6a1810116",
+        image: "./LinkedIn_icon.svg",
+    },
+    {
+        name: "X",
         url: "",
-        image: "",
+        image: "./x-logo.svg",
     },
 ]
 

@@ -1,6 +1,11 @@
+@import '../../variables.scss';
+
 footer {
     padding: 1rem;
     p{
         margin: 0;
+    }
+    .social-list{
+        justify-content: center;
     }
 }

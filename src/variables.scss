@@ -1,0 +1,20 @@
+// Color variables
+$primary: #FF0034;
+$white: #fff;
+$black: #0F0F0F;
+
+// Typography variables
+$main-font: 'Poppins', sans-serif;
+$heading-font: 'Bebas Neue', sans-serif;
+
+// Media queries
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+@mixin tablet {
+    @media only screen and (min-width: $lg) {
+        @content;
+    }
+}
