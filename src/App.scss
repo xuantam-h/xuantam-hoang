@@ -27,7 +27,7 @@ h3{
 }
 
 strong{
-    color:white;
+    color:$white;
 }
 
 .container{
@@ -44,6 +44,11 @@ strong{
     &-vertical-center{
         @include tablet{
             align-items: center;
+        }
+    }
+    &-space-between{
+        @include tablet{
+            justify-content: space-between;
         }
     }
 }
@@ -88,9 +93,10 @@ section{
     &:after{
         content:'';
         width:100px;
+        flex:1;
         display: block;
         height: 1px;
-        background-color: #1c1c1c;
+        background-color: $gray;
         @include tablet{
             width:150px;
         }

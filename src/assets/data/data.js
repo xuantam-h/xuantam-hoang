@@ -5,12 +5,12 @@ const skills = [
     'PHP',
     'Git',
     'React',
-    'Create-React-App',
     'Redux',
     'Redux Toolkit',
     'MongoDB',
     'Node.js',
     'Swagger',
+    'Jest',
     'WordPress',
     'Drupal',
     'SASS',
@@ -18,6 +18,7 @@ const skills = [
     'Tailwind',
     'Figma',
     'Adobe XD',
+    'Adobe Photoshop',
 ]
 
 const projects = [
@@ -26,16 +27,16 @@ const projects = [
         tags: ["HTML", "CSS", "React", "Create-react-app", "React-router", "Redux", "Redux-toolkit", "MongoDB", "Swagger"],
         url: "https://github.com/xuantam-h/ArgentBank-website",
         image: "./project-argentbank.webp",
-        summary: "Projet d'une application bancaire sous React, gestion des states avec Redux, appel API avec RTK",
-        description: "Création d'une application bancaire avec Create React App (CRA). La gestion des states se fait avec Redux. Authentification des utilisateurs avec token (JWT). Appel API avec RTK et création d'endpoints au niveau du Swagger pour gérer les transactions bancaires.",
+        summary: "Projet de création d'une application bancaire sous React, gestion des states avec Redux, appel API avec Redux Toolkit, gestion des utilisateurs",
+        description: "Création d'une application bancaire avec Create React App (CRA). La gestion des states se fait avec Redux. Authentification des utilisateurs avec token (JWT) et gestion du profil. Appel API avec RTK et création d'endpoints au niveau du Swagger pour gérer les transactions bancaires.",
     },
     {
         name: "Kasa",
         tags: ["HTML", "CSS", "React", "React-router"],
         url: "https://github.com/xuantam-h/kasa-react",
         image: "./project-kasa.webp",
-        summary: "Projet d'un site d'agence immobilière utilisant React. Gestion des routes avec React-router",
-        description: "",
+        summary: "Projet d'un site d'agence immobilière utilisant React. Intégration fidèle des maquettes. Gestion des routes avec React-router",
+        description: "Projet d'un site d'agence immobilière utilisant React. Intégration fidèle des maquettes. Gestion des routes avec React-router.",
     },
     {
         name: "Sophie Bluel",
@@ -50,7 +51,7 @@ const projects = [
         tags: ["HTML", "CSS", "Responsive Web Design", "Animations"],
         url: "https://github.com/xuantam-h/p4-ohmyfood",
         image: "./project-ohmyfood.webp",
-        summary: "Projet de création d'un site de livraison de plats en HTML/CSS. Approche mobile-first.",
+        summary: "Projet de création d'un site de livraison de plats en HTML/CSS. Approche mobile-first",
         description: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
     },
     {
@@ -58,16 +59,16 @@ const projects = [
         tags: ["SEO", "Rich Snippet", "WAVE", "Référencement local"],
         url: "https://github.com/xuantam-h/ninacarducci",
         image: "./project-kasa.webp",
-        summary: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site.",
+        summary: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site",
         description: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
     },
     {
-        name: "Sophie Bluel",
-        tags: ["HTML", "CSS", "JavaScript", "Swagger", "Node.js"],
+        name: "77events",
+        tags: ["React", "React Developer Tools"],
         url: "https://github.com/xuantam-h/portfolio-sophie-bluel",
         image: "./project-kasa.webp",
-        summary: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
-        description: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
+        summary: "Projet de debug d'application React et création de tests unitaires Jest",
+        description: "Projet de debug d'application React",
     },
 ]
 
@@ -95,14 +96,16 @@ const experiences = [
         year: "2021-2022",
         location: "Colmar (68)",
         title: "Intégrateur Web",
-        description: "",
+        description: "J'ai été amené à travailler dans cette agence Web à taille humaine pendant un an. A l'aide du CMS WordPress et du CMS Prima créé sur-mesure, j'ai été chargé de développer, intégrer et gérer la maintenance de sites vitrines et e-commerce. En plus de mes missions d'intégrateur, j'ai également eu l'opportunité de traduire et de localiser des sites des clients de l'anglais vers le français. J'utilisais également les outils de PAO pour réaliser des brochures et créer des visuels à destination des newsletters.",
+        techs: ["HTML", "CSS", "JavaScript", "PHP", "WordPress", "Drupal", "Bootstrap", "Adobe XD", "Adobe InDesign", "Adobe Photoshop"],
     },
     {
         company: "Cekome",
         year: "2018-2019",
         location: "Colmar (68)",
         title: "Intégrateur Web",
-        description: "",
+        description: "Premier emploi obtenu dans le milieu du Web après avoir obtenu mon Master CAWEB. Développement, intégration et graphisme de sites sous le CMS WordPress. Création d'identités visuelles (logo, webdesign)",
+        techs: ["HTML", "CSS", "JavaScript", "PHP", "WordPress", "Adobe Photoshop", "GIMP"],
     }
 ]
 

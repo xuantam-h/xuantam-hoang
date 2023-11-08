@@ -2,7 +2,7 @@
 
 .projects-list{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
     gap:2rem;
     margin-top:3rem;
 
@@ -12,6 +12,7 @@
         transition: border 250ms ease-in-out;
 
         &:hover{
+            border-color:$primary;
             .project-overlay{
                 opacity: 1;
             }
@@ -49,7 +50,6 @@
         z-index: 0;
         overflow: hidden;
         img{
-            filter: grayscale(1);
             width: 100%;
             object-fit: cover;
             min-height:400px;
@@ -111,23 +111,32 @@
 
 .project-modal-container{
     display: flex;
+    flex-direction: column;
     background-color: $white;
-    max-width: 60%;
+    max-width: 80%;
+    @include tablet{
+        flex-direction: row;
+        max-width: 60%;
+    }
 
     .project-modal-image{
-        max-width: 18.75rem;
-        min-height: 25.25rem;
+        width: 100%;
+        @include tablet{
+            flex:1;
+            min-height: 25.25rem;
+        }
         img{
             display: block;
             width: 100%;
             object-fit: cover;
             height: 100%;
-            object-position: right;
+            object-position: center;
         }
     }
 
     .project-modal-content{
         display: flex;
+        flex:1;
         flex-direction: column;
         padding: 2rem;
         position: relative;

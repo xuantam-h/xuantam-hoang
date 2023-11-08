@@ -2,7 +2,26 @@
 
 #about{
     .flex-container{
-        gap:5rem;
+        display: flex;
+        flex-direction: column;
+        @include tablet{
+            flex-direction: row;
+            gap:5rem;
+        }
+    }
+}
+
+.about-sidebar{
+    &-description{
+        order:2;
+    }
+
+    &-sidebar{
+        margin-top:3rem;
+        order: 1;
+        @include tablet{
+            margin-top:0;
+        }
     }
 }
 
