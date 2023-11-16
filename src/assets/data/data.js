@@ -58,17 +58,17 @@ const projects = [
         name: "Nina Carducci",
         tags: ["SEO", "Rich Snippet", "WAVE", "Référencement local", "Schema.org"],
         url: "https://github.com/xuantam-h/ninacarducci",
-        image: "./project-kasa.webp",
+        image: "./project-nina-carducci.webp",
         summary: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site.",
-        description: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site. Ajout du référencement local et microdonnées avec Schema.org.",
+        description: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site (Accessibilité, taille et poids des images, ). Ajout du référencement local et microdonnées avec Schema.org. Ajouter les metas pour les réseaux sociaux pour contrôler l'affichage des posts partagés.",
     },
     {
         name: "77events",
         tags: ["React", "React Developer Tools", "Jest", "React Testing Library"],
         url: "https://github.com/xuantam-h/77events",
-        image: "./project-kasa.webp",
+        image: "./project-77events.webp",
         summary: "Projet de debug d'application React et création de tests unitaires et fonctionnels avec Jest et React Testing Library",
-        description: "Projet de debug d'application React d'une agence évènementielle. Utilisation de React Developer Tools. Création de tests unitaires et d'intégrations.",
+        description: "Projet de debug d'application React d'une agence évènementielle. Utilisation de React Developer Tools. Création de tests unitaires et d'intégrations sous Jest et React Testing Library.",
     },
 ]
 

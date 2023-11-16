@@ -25,8 +25,9 @@
         cursor: pointer;
         padding: 0;
         position: absolute;
-        top:1rem;
+        top:1.5rem;
         right: 5%;
+        width: 20px;
     }
 }
 
@@ -57,7 +58,7 @@
         }
         span{
             color:$primary;
-            margin-right: 2rem;
+            margin-right: 1rem;
         }
     }
 }
