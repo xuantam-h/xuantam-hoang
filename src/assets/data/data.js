@@ -51,8 +51,8 @@ const projects = [
         tags: ["HTML", "CSS", "Responsive Web Design", "Animations"],
         url: "https://github.com/xuantam-h/p4-ohmyfood",
         image: "./project-ohmyfood.webp",
-        summary: "Projet de création d'un site de livraison de plats en HTML/CSS. Approche mobile-first",
-        description: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
+        summary: "Projet d'intégration d'un site de livraison de plats en HTML/CSS à partir d'une maquette Figma. Approche mobile-first et création d'animations uniques (loader)",
+        description: "Projet d'intégration d'un site de livraison de plats en HTML/CSS à partir d'une maquette Figma. Approche mobile-first et création d'animations uniques (loader)",
     },
     {
         name: "Nina Carducci",
@@ -112,7 +112,7 @@ const experiences = [
         year: "2018-2019",
         location: "Colmar (68)",
         title: "Apprenti consultant SEO - Rédacteur Web",
-        description: "Apprentissage réalisé dans le cadre de mon Master en tant que rédacteur Web. Mes missions consistaient à promouvoir l'observatoire sur les réseaux sociaux pour les professionnels (B2B) et d'alimenter la rubrique Blog du site. J'ai été amené à concevoir des visuels et des ",
+        description: "Apprentissage réalisé dans le cadre de mon Master en tant que rédacteur Web. Mes missions consistaient à promouvoir l'observatoire sur les réseaux sociaux pour les professionnels (B2B) et d'alimenter la rubrique Blog du site. J'ai été amené à concevoir des visuels et des infographies à destination des professionnels du tourisme.",
         techs: ["HTML", "CSS", "SEO", "Réseaux sociaux", "Rédaction", "Adobe Photoshop"],
     }
 ]
