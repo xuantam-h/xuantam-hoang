@@ -56,19 +56,19 @@ const projects = [
     },
     {
         name: "Nina Carducci",
-        tags: ["SEO", "Rich Snippet", "WAVE", "Référencement local"],
+        tags: ["SEO", "Rich Snippet", "WAVE", "Référencement local", "Schema.org"],
         url: "https://github.com/xuantam-h/ninacarducci",
         image: "./project-kasa.webp",
-        summary: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site",
-        description: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
+        summary: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site.",
+        description: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site. Ajout du référencement local et microdonnées avec Schema.org.",
     },
     {
         name: "77events",
-        tags: ["React", "React Developer Tools"],
-        url: "https://github.com/xuantam-h/portfolio-sophie-bluel",
+        tags: ["React", "React Developer Tools", "Jest", "React Testing Library"],
+        url: "https://github.com/xuantam-h/77events",
         image: "./project-kasa.webp",
-        summary: "Projet de debug d'application React et création de tests unitaires Jest",
-        description: "Projet de debug d'application React",
+        summary: "Projet de debug d'application React et création de tests unitaires et fonctionnels avec Jest et React Testing Library",
+        description: "Projet de debug d'application React d'une agence évènementielle. Utilisation de React Developer Tools. Création de tests unitaires et d'intégrations.",
     },
 ]
 
@@ -80,7 +80,7 @@ const social = [
     },
     {
         name: "LinkedIn",
-        url: "https://fr.linkedin.com/in/xuan-tam-hoang-6a1810116",
+        url: "https://fr.linkedin.com/in/xuantam-hoang",
         image: "./LinkedIn_icon.svg",
     },
     {

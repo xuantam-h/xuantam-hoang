@@ -1,5 +1,7 @@
 import './Hero.scss';
 import Button from "../Button";
+import ResumePDF from '../../assets/pdf/cv-xuantam.pdf';
+
 
 const Hero = () => {
     return (
@@ -11,7 +13,7 @@ const Hero = () => {
                     <p>Collaborons ensemble pour réaliser le <strong>site ou application Web de vos rêves à votre image</strong> !</p>
                 </div>
                 <div className="hero-cta">
-                    <Button btnClass="btn">Télécharger mon CV</Button>
+                    <a className="btn" href={ResumePDF} target="_blank" rel="noreferrer">Télécharger mon CV</a>
                 </div>
             </div>
             <div className="hero-image">
