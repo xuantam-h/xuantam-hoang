@@ -1,12 +1,14 @@
 import './Hero.scss';
-import Button from "../Button";
 import ResumePDF from '../../assets/pdf/cv-xuantam.pdf';
-
+import { motion } from "framer-motion"
 
 const Hero = () => {
     return (
         <section id="hero" className="container padding-global">
-            <div className="hero-content">
+            <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            className="hero-content">
                 <h1>Développeur Web <span>Front-End</span></h1>
                 <div className="hero-content">
                     <p><strong>Intégrateur et développeur Web Front-End</strong> formé par OpenClassrooms, je dispose d'une expérience de deux ans en agence en tant qu'Intégrateur Web.</p>
@@ -15,7 +17,7 @@ const Hero = () => {
                 <div className="hero-cta">
                     <a className="btn" href={ResumePDF} target="_blank" rel="noreferrer">Télécharger mon CV</a>
                 </div>
-            </div>
+            </motion.div>
             <div className="hero-image">
 
             </div>

@@ -1,9 +1,13 @@
 import { projects } from '../../assets/data/data';
 import ProjectCard from '../ProjectCard';
+import { motion } from "framer-motion";
 
 const Projects = () => {
+
     return (
-        <section id="projects" className="padding-global text-center">
+        <motion.section
+        id="projects"
+        className="padding-global text-center">
             <div className="container">
                 <p className="section-subtitle">02.</p>
                 <h2 className="section-title">Projets réalisés</h2>
@@ -22,7 +26,7 @@ const Projects = () => {
                     )}
                 </div>
             </div>
-        </section>
+        </motion.section>
     );
 };
 

@@ -16,6 +16,7 @@ const skills = [
     'SASS',
     'Bootstrap',
     'Tailwind',
+    'Framer Motion',
     'Figma',
     'Adobe XD',
     'Adobe Photoshop',
@@ -27,7 +28,7 @@ const projects = [
         tags: ["HTML", "CSS", "React", "Create-react-app", "React-router", "Redux", "Redux-toolkit", "MongoDB", "Swagger"],
         url: "https://github.com/xuantam-h/ArgentBank-website",
         image: "./project-argentbank.webp",
-        summary: "Projet de création d'une application bancaire sous React, gestion des states avec Redux, appel API avec Redux Toolkit, gestion des utilisateurs",
+        summary: "Projet de création d'une application bancaire sous React, gestion des states avec Redux, appels API avec Redux Toolkit, gestion des utilisateurs et dashboard",
         description: "Création d'une application bancaire avec Create React App (CRA). La gestion des states se fait avec Redux. Authentification des utilisateurs avec token (JWT) et gestion du profil. Appel API avec RTK et création d'endpoints au niveau du Swagger pour gérer les transactions bancaires.",
     },
     {
@@ -37,6 +38,14 @@ const projects = [
         image: "./project-kasa.webp",
         summary: "Projet d'un site d'agence immobilière utilisant React. Intégration fidèle des maquettes. Gestion des routes avec React-router",
         description: "Projet d'un site d'agence immobilière utilisant React. Intégration fidèle des maquettes. Gestion des routes avec React-router.",
+    },
+    {
+        name: "77events",
+        tags: ["React", "React Developer Tools", "Jest", "React Testing Library"],
+        url: "https://github.com/xuantam-h/77events",
+        image: "./project-77events.webp",
+        summary: "Projet de debug d'application React et création de tests unitaires et fonctionnels avec Jest et React Testing Library",
+        description: "Projet de debug d'application React d'une agence évènementielle. Utilisation de React Developer Tools. Création de tests unitaires et d'intégrations sous Jest et React Testing Library.",
     },
     {
         name: "Sophie Bluel",
@@ -61,14 +70,6 @@ const projects = [
         image: "./project-nina-carducci.webp",
         summary: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site.",
         description: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site (Accessibilité, taille et poids des images, ). Ajout du référencement local et microdonnées avec Schema.org. Ajouter les metas pour les réseaux sociaux pour contrôler l'affichage des posts partagés.",
-    },
-    {
-        name: "77events",
-        tags: ["React", "React Developer Tools", "Jest", "React Testing Library"],
-        url: "https://github.com/xuantam-h/77events",
-        image: "./project-77events.webp",
-        summary: "Projet de debug d'application React et création de tests unitaires et fonctionnels avec Jest et React Testing Library",
-        description: "Projet de debug d'application React d'une agence évènementielle. Utilisation de React Developer Tools. Création de tests unitaires et d'intégrations sous Jest et React Testing Library.",
     },
 ]
 

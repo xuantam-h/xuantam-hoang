@@ -14,7 +14,6 @@ const About = () => {
                     <p>À l'issue de cette formation enrichissante, je souhaite me spécialiser dans le développement d'<strong>applications Web modernes sur React</strong>. Grâce à la veille technologique que j'effectue au quotidien, je reste tenu au courant des dernières technologies et standards du Web.</p>
                     <p>De nature calme et réfléchie, je ne me laisse pas emporter par la pression en période de rush. J'arrive à <strong>respecter les délais imposés</strong> pour produire des livrables de qualité en temps et en heure.</p>
                     <p>Je reste motivé à apprendre de nouvelles technologies et <strong>élargir mon champ de compétences</strong> pour proposer des applications ou sites plus performants.</p>
-                    
                 </div>
                 <div className="about-sidebar">
                     <p className="title-line">Technologies & logiciels</p>

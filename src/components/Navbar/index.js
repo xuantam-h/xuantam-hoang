@@ -15,6 +15,10 @@ const Navbar = () => {
         setIsOpen(false);
     }
 
+    const handleLink = (e) => {
+        setIsOpen(false);
+    }
+
     return (
         <div className="header-right">
             <button className="menu-button" onClick={handleOpenMenu}>
@@ -27,11 +31,11 @@ const Navbar = () => {
                     <img src={closeBtn} alt="Close button"/>
                 </button>
                 <nav>
-                    <a className="nav-item" href="#"><span>01.</span> Accueil</a>
-                    <a className="nav-item" href="#about"><span>02.</span> À propos</a>
-                    <a className="nav-item" href="#projects"><span>03.</span> Projets</a>
-                    <a className="nav-item" href="#experience"><span>04.</span> Expérience</a>   
-                    <a className="nav-item" href="#contact"><span>05.</span> Contact</a>
+                    <a className="nav-item" href="#" onClick={handleLink}><span>01.</span> Accueil</a>
+                    <a className="nav-item" href="#about" onClick={handleLink}><span>02.</span> À propos</a>
+                    <a className="nav-item" href="#projects" onClick={handleLink}><span>03.</span> Projets</a>
+                    <a className="nav-item" href="#experience" onClick={handleLink}><span>04.</span> Expérience</a>   
+                    <a className="nav-item" href="#contact" onClick={handleLink}><span>05.</span> Contact</a>
                 </nav>
             </div>
         </div>
