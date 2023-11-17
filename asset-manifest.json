@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/xuantam-hoang/static/css/main.7fed085c.css",
-    "main.js": "/xuantam-hoang/static/js/main.36d718dc.js",
+    "main.css": "/xuantam-hoang/static/css/main.fc447474.css",
+    "main.js": "/xuantam-hoang/static/js/main.8960e07b.js",
     "static/js/787.92888226.chunk.js": "/xuantam-hoang/static/js/787.92888226.chunk.js",
     "static/media/cv-xuantam.pdf": "/xuantam-hoang/static/media/cv-xuantam.d74c289361557de33f19.pdf",
     "index.html": "/xuantam-hoang/index.html",
     "static/media/github-mark-white.svg": "/xuantam-hoang/static/media/github-mark-white.2aba3d9496680ec702b67caa078a074f.svg",
     "static/media/xmark-solid.svg": "/xuantam-hoang/static/media/xmark-solid.2eb1a7d7779aaafa95205ac424cadaec.svg",
     "static/media/collapse-arrow.svg": "/xuantam-hoang/static/media/collapse-arrow.4a04903e724e6ebcc901f75c126f972a.svg",
-    "main.7fed085c.css.map": "/xuantam-hoang/static/css/main.7fed085c.css.map",
-    "main.36d718dc.js.map": "/xuantam-hoang/static/js/main.36d718dc.js.map",
+    "main.fc447474.css.map": "/xuantam-hoang/static/css/main.fc447474.css.map",
+    "main.8960e07b.js.map": "/xuantam-hoang/static/js/main.8960e07b.js.map",
     "787.92888226.chunk.js.map": "/xuantam-hoang/static/js/787.92888226.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fed085c.css",
-    "static/js/main.36d718dc.js"
+    "static/css/main.fc447474.css",
+    "static/js/main.8960e07b.js"
   ]
 }
