@@ -1,11 +1,10 @@
 import { projects } from '../../assets/data/data';
 import ProjectCard from '../ProjectCard';
-import { motion } from "framer-motion";
 
 const Projects = () => {
 
     return (
-        <motion.section
+        <section
         id="projects"
         className="padding-global text-center">
             <div className="container">
@@ -26,7 +25,7 @@ const Projects = () => {
                     )}
                 </div>
             </div>
-        </motion.section>
+        </section>
     );
 };
 
