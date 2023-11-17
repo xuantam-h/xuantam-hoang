@@ -78,26 +78,11 @@
         font-family: $heading-font;
         font-size: 3rem;
         transition: all 250ms ease-in-out;
-        animation: 600ms ease-in-out fadeInRight;
 
         @include tablet{
             font-size: 4rem;
         }
-        &:nth-child(1){
-            animation-delay: 200ms;
-        }
-        &:nth-child(2){
-            animation-delay: 400ms;
-        }
-        &:nth-child(3){
-            animation-delay: 600ms;
-        }
-        &:nth-child(4){
-            animation-delay: 800ms;
-        }
-        &:nth-child(5){
-            animation-delay: 1000ms;
-        }
+
         span{
             color:$primary;
             margin-right: 1rem;
@@ -110,15 +95,4 @@
 
 .nav-closed{
     clip-path: circle(0% at 100% 0);
-}
-
-@keyframes fadeInRight {
-    0% {
-        transform: translateX(-20%);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0);
-        opacity: 1;
-    }
 }

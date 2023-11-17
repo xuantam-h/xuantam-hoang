@@ -146,10 +146,7 @@
         position: relative;
         text-align: left;
         justify-content: center;
-        padding:1.5rem;
-        @include tablet{
-            padding: 2rem;
-        }
+        padding:2rem;
         
         p{
             color:#797a7b;
