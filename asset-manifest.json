@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xuantam-hoang/static/css/main.bea880c9.css",
-    "main.js": "/xuantam-hoang/static/js/main.1d3a79aa.js",
+    "main.js": "/xuantam-hoang/static/js/main.36d718dc.js",
     "static/js/787.92888226.chunk.js": "/xuantam-hoang/static/js/787.92888226.chunk.js",
     "static/media/cv-xuantam.pdf": "/xuantam-hoang/static/media/cv-xuantam.d74c289361557de33f19.pdf",
     "index.html": "/xuantam-hoang/index.html",
@@ -9,11 +9,11 @@
     "static/media/xmark-solid.svg": "/xuantam-hoang/static/media/xmark-solid.2eb1a7d7779aaafa95205ac424cadaec.svg",
     "static/media/collapse-arrow.svg": "/xuantam-hoang/static/media/collapse-arrow.4a04903e724e6ebcc901f75c126f972a.svg",
     "main.bea880c9.css.map": "/xuantam-hoang/static/css/main.bea880c9.css.map",
-    "main.1d3a79aa.js.map": "/xuantam-hoang/static/js/main.1d3a79aa.js.map",
+    "main.36d718dc.js.map": "/xuantam-hoang/static/js/main.36d718dc.js.map",
     "787.92888226.chunk.js.map": "/xuantam-hoang/static/js/787.92888226.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bea880c9.css",
-    "static/js/main.1d3a79aa.js"
+    "static/js/main.36d718dc.js"
   ]
 }
