@@ -114,6 +114,8 @@
     flex-direction: column;
     background-color: $white;
     max-width: 80%;
+    transition: all 500ms ease-in-out;
+    animation:fadeInToBottom 300ms ease-out;
     @include tablet{
         flex-direction: row;
         max-width: 60%;
@@ -170,5 +172,16 @@
                 width: 20px;
             }
         }
+    }
+}
+
+@keyframes fadeInToBottom {
+    from{
+        opacity: 0;
+        transform:translateY(-20%);
+    }
+    to{
+        opacity: 1;
+        transform:translateY(0);
     }
 }
