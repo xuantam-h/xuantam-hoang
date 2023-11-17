@@ -51,7 +51,7 @@ const projects = [
         name: "Sophie Bluel",
         tags: ["HTML", "CSS", "JavaScript", "Swagger", "Node.js"],
         url: "https://github.com/xuantam-h/portfolio-sophie-bluel",
-        image: "./project-kasa.webp",
+        image: "./project-sophie.webp",
         summary: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
         description: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
     },
