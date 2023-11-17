@@ -3,6 +3,7 @@ import Tag from '../Tag';
 import './ProjectCard.scss';
 import Button from '../Button';
 import github from './../../assets/images/github-mark-white.svg';
+import closeBtn from '../../assets/images/xmark-solid.svg';
 
 const ProjectCard = ({title, summary, description, tags, image, url}) => {
 
@@ -31,7 +32,9 @@ const ProjectCard = ({title, summary, description, tags, image, url}) => {
             </div>
         </div>
         <div className={isModal ? "project-modal modal-opened" : "project-modal modal-closed"}>
-            <button className="close-btn" onClick={handleCloseModal}>×</button>
+            <button className="menu-close" onClick={handleCloseModal}>
+                <img src={closeBtn} alt="Close button"/>
+            </button>
             <div className="project-modal-container">
                 <div className="project-modal-image">
                     <img src={image} alt={title}/>
