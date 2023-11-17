@@ -153,6 +153,9 @@
 
         .project-modal-title-container{
             gap:1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
         .project-modal-title{
             font-weight: 800;
