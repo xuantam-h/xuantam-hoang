@@ -116,6 +116,7 @@
     max-width: 80%;
     transition: all 500ms ease-in-out;
     animation:fadeInToBottom 300ms ease-out;
+    
     @include tablet{
         flex-direction: row;
         max-width: 60%;
@@ -158,6 +159,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            margin-bottom: 2rem;
         }
         .project-modal-title{
             font-weight: 800;
