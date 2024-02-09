@@ -1,11 +1,11 @@
 @import '../../variables.scss';
 
 .btn{
-    border:3px solid $primary;
-    padding: 1rem 2rem;
+    border-bottom:2px solid $main-color;
+    padding: .4rem .5rem;
     font-family: $main-font;
     background-color: transparent;
-    color:$white;
+    color:$main-color;
     font-weight: 800;
     transition: 250ms background ease-in-out;
     display: inline-block;
@@ -13,7 +13,6 @@
     cursor: pointer;
     font-size: 1rem;
     text-transform: uppercase;
-    border-radius: 5px;
     &:hover{
         background-color: $primary;
     }
