@@ -15,7 +15,7 @@ const skills = [
     'Drupal',
     'SASS',
     'Bootstrap',
-    'Tailwind',
+    'Tailwind CSS',
     'Framer Motion',
     'Figma',
     'Adobe XD',
@@ -23,6 +23,14 @@ const skills = [
 ]
 
 const projects = [
+    {
+        name: "Portfolio Ikea",
+        tags: ["HTML", "CSS", "Tailwind CSS"],
+        url: "https://github.com/xuantam-h/",
+        image: "./project-ikea.webp",
+        summary: "Projet de création d'un CV inspiré par une page produit IKEA. HTML/CSS/Tailwind CSS",
+        description: "Intégration d'un CV entièrement en HTML/CSS/Tailwind CSS inspiré d'une page produit IKEA",
+    },
     {
         name: "Argent Bank",
         tags: ["HTML", "CSS", "React", "Create-react-app", "React-router", "Redux", "Redux-toolkit", "MongoDB", "Swagger"],
@@ -53,7 +61,7 @@ const projects = [
         url: "https://github.com/xuantam-h/portfolio-sophie-bluel",
         image: "./project-sophie.webp",
         summary: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
-        description: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
+        description: "Projet de création d'une page administration en JavaScript. Appels API pour l'authentification utilisateur utilisant la méthode JWT, ajouter ou supprimer des travaux de l'architecte à travers une modale accessible lorsque l'utilisateur est authentifié.",
     },
     {
         name: "Oh my Food !",
@@ -65,11 +73,11 @@ const projects = [
     },
     {
         name: "Nina Carducci",
-        tags: ["SEO", "Rich Snippet", "WAVE", "Référencement local", "Schema.org"],
+        tags: ["SEO", "Rich Snippet", "WAVE", "Référencement local", "Schema.org", "Minification"],
         url: "https://github.com/xuantam-h/ninacarducci",
         image: "./project-nina-carducci.webp",
         summary: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site.",
-        description: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site (Accessibilité, taille et poids des images, ). Ajout du référencement local et microdonnées avec Schema.org. Ajouter les metas pour les réseaux sociaux pour contrôler l'affichage des posts partagés.",
+        description: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site (Accessibilité, taille et poids des images, ). Ajout du référencement local et microdonnées avec Schema.org. Ajouter les metas pour les réseaux sociaux pour contrôler l'affichage des posts partagés. Minification des fichiers JS et CSS pour améliorer les performances.",
     },
 ]
 

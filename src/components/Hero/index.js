@@ -1,5 +1,5 @@
 import './Hero.scss';
-import ResumePDF from '../../assets/pdf/cv-xuantam.pdf';
+import ResumePDF from '../../assets/pdf/cv-xuantam-web.pdf';
 
 const Hero = () => {
     return (
