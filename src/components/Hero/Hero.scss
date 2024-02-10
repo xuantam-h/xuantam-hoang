@@ -37,4 +37,9 @@
         margin-top:3rem;
         gap:1rem;
     }
+    &-text{
+        @include tablet{
+            max-width: 41.25rem;
+        }
+    }
 }

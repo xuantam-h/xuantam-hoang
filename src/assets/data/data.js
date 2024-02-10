@@ -106,11 +106,6 @@ const social = [
         url: "https://fr.linkedin.com/in/xuantam-hoang",
         image: "./LinkedIn_icon.svg",
     },
-    {
-        name: "X",
-        url: "",
-        image: "./x-logo.svg",
-    },
 ]
 
 const experiences = [
