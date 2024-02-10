@@ -33,8 +33,8 @@ const Navbar = () => {
                 <nav>
                     <a className="nav-item" href="#" onClick={handleLink}><span>01.</span> Accueil</a>
                     <a className="nav-item" href="#about" onClick={handleLink}><span>02.</span> À propos</a>
-                    <a className="nav-item" href="#projects" onClick={handleLink}><span>03.</span> Projets</a>
-                    <a className="nav-item" href="#experience" onClick={handleLink}><span>04.</span> Expérience</a>   
+                    <a className="nav-item" href="#experience" onClick={handleLink}><span>03.</span> Expérience</a>
+                    <a className="nav-item" href="#projects" onClick={handleLink}><span>04.</span> Projets</a>   
                     <a className="nav-item" href="#contact" onClick={handleLink}><span>05.</span> Contact</a>
                 </nav>
             </div>

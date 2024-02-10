@@ -6,7 +6,7 @@
     a{
         transition: all 250ms ease-in-out;
         &:hover{
-            filter:brightness(50%);
+            transform: translateY(-20%);
         }
     }
     img{

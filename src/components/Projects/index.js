@@ -8,7 +8,7 @@ const Projects = () => {
         id="projects"
         className="padding-global text-center">
             <div className="container">
-                <p className="section-subtitle">02.</p>
+                <p className="section-subtitle">03.</p>
                 <h2 className="section-title">Projets réalisés</h2>
                 <p>Vous trouverez ci-dessous une liste des projets réalisés dans le cadre de ma formation de Développeur Web :</p>
                 <div className="projects-list">
