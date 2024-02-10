@@ -40,7 +40,7 @@ const projects = [
     {
         name: "Portfolio Ikea",
         tags: ["HTML", "CSS", "Tailwind CSS"],
-        url: "https://github.com/xuantam-h/",
+        url: "https://github.com/xuantam-h/ikea-resume",
         image: "./project-ikea.webp",
         summary: "Projet de création d'un CV inspiré par une page produit IKEA. HTML/CSS/Tailwind CSS",
         description: "Intégration d'un CV entièrement en HTML/CSS/Tailwind CSS inspiré d'une page produit IKEA",

@@ -21,7 +21,7 @@ const ProjectCard = ({title, summary, description, tags, image, url}) => {
         <>
         <div className="project-item">
             <div className="project-image">
-                <img src={image} alt={title}/>
+                {image ? <img src={image} alt={title}/> : <img src={image} alt="Project cover"/>}
                 <div className="project-overlay">
                     <div className="project-overlay-content">
                         <h3 className="project-title">{title}</h3>
