@@ -96,7 +96,7 @@ section{
         flex:1;
         display: block;
         height: 1px;
-        background-color: $gray;
+        background-color: $border-color;
         @include tablet{
             width:150px;
         }

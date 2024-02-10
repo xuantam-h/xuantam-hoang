@@ -24,23 +24,3 @@
         }
     }
 }
-
-.skills{
-    &-list{
-        display: flex;
-        gap:.7rem;
-        list-style: none;
-        flex-wrap: wrap;
-        padding: 0;
-        margin-bottom: 3rem;
-    }
-
-    &-item{
-        padding: .1rem .5rem;
-        border:2px solid $main-color;
-        border-radius: 5px;
-        font-size: .8rem;
-        text-transform: uppercase;
-        font-weight: 800;
-    }
-}

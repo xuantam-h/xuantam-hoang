@@ -1,9 +1,19 @@
 @import '../../variables.scss';
 
+#skills{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    @include tablet{
+        flex-direction: row;
+        gap:2rem;
+    }
+}
+
 .skills{
     &-list{
         display: flex;
-        gap:1rem;
+        gap:.7rem;
         list-style: none;
         flex-wrap: wrap;
         padding: 0;
@@ -15,6 +25,11 @@
         border:2px solid $main-color;
         border-radius: 5px;
         font-size: .8rem;
+        text-transform: uppercase;
         font-weight: 800;
+    }
+
+    &-container{
+        flex:1;
     }
 }

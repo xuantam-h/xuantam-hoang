@@ -1,8 +1,9 @@
-const skills = [
+const frontSkills = [
     'HTML',
     'CSS',
     'JavaScript',
-    'PHP',
+    'React',
+    /*
     'Git',
     'React',
     'Redux',
@@ -19,7 +20,20 @@ const skills = [
     'Framer Motion',
     'Figma',
     'Adobe XD',
-    'Adobe Photoshop',
+    'Adobe Photoshop',*/
+]
+
+const backSkills = [
+    'PHP',
+    'MongoDB',
+    'Node.js',
+]
+
+const designSkills = [
+    'Bootstrap',
+    'Tailwind CSS',
+    'Figma',
+    'Adobe XD',
 ]
 
 const projects = [
@@ -126,4 +140,4 @@ const experiences = [
     }
 ]
 
-export { skills, projects, social, experiences }
+export { frontSkills, backSkills, designSkills, projects, social, experiences }

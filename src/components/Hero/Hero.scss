@@ -1,32 +1,40 @@
 @import '../../variables.scss';
 
 #hero{
+
+    display: flex;
+    align-items: center;
+
     @include tablet{
-        margin-top:4rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 100vh;
     }
+
     h1{
         font-size:3rem;
-        margin: 0;
         line-height: 1;
+        margin: 0;
         @include tablet{
-            font-size:4rem;
+            font-size:5rem;
         }
         span{
             color:$primary;
         }
+    }
+    h2{
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+        margin-top: .5rem;
     }
 }
 
 .hero{
     &-content{
         margin:1.5rem 0 0 0;
-        text-align: center;
-        @include tablet{
-            max-width: 80%;
-            margin:0 auto;
-        }
     }
     &-cta{
-        margin-top:2rem;
+        margin-top:3rem;
+        gap:1rem;
     }
 }

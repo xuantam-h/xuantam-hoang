@@ -12,7 +12,6 @@
         transition: border 250ms ease-in-out;
 
         &:hover{
-            border-color:$primary;
             .project-overlay{
                 opacity: 1;
             }
