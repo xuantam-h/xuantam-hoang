@@ -52,7 +52,7 @@
         }
     }
     &-title{
-        margin:.2rem 0 0 0;
+        margin:.4rem 0 0 0;
         font-family: $main-font;
         font-size:.9rem;
         display: block;
@@ -73,6 +73,12 @@
         opacity: 1;
         max-height: fit-content;
         margin-top:2rem;
+    }
+    &-tasks{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0;
     }
 
 }

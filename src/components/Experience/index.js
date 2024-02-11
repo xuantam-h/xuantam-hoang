@@ -11,7 +11,9 @@ const Experience = () => {
             <div className="experience-list">
                 {experiences.map((experience,index) => 
                     <Collapse title={experience.company} job={experience.title} key={index}>
-                        <p>{experience.description}</p>
+                        <ul className="experience-tasks">
+                            {experience.tasks.map((task,index) => <li className="task-item" key={index}>{task}</li>)}
+                        </ul>
                         <ul className="skills-list">
                             {experience.techs.map((tech,index) => <li className="skills-item" key={index}>{tech}</li>)}
                         </ul>

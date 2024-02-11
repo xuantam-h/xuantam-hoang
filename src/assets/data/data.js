@@ -118,7 +118,8 @@ const experiences = [
         location: "Colmar (68)",
         title: "Intégrateur Web",
         description: "J'ai été amené à rejoindre cette agence Web à taille humaine pendant un an. A l'aide du CMS WordPress et du CMS Prima créé sur-mesure, j'ai été chargé de développer, intégrer et gérer la maintenance de sites vitrines et e-commerce. En plus de mes missions d'intégrateur, j'ai également eu l'opportunité de traduire et de localiser des sites des clients de l'anglais vers le français. Je me servais également des outils de PAO (Adobe Photoshop, Adobe InDesign) pour réaliser des brochures et créer des visuels à destination des newsletters.",
-        techs: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WordPress", "Drupal", "Bootstrap", "Adobe XD", "Adobe InDesign", "Adobe Photoshop"],
+        techs: ["HTML", "CSS", "JavaScript", "PHP", "Twig", "MySQL", "WordPress", "Drupal", "Bootstrap", "Adobe XD", "Adobe InDesign", "Adobe Photoshop"],
+        tasks: ["Intégration et maintenance de sites vitrine et e-commerce sous WordPress, Joomla! et Prima (CMS local)", "Création d’un thème enfant sous WordPress", "Intégration de maquettes réalisées sous Figma et Adobe XD", "Intégration de pages de contenu sous le plugin Visual Composer", "Intégration et mise à jour de mails transactionnels", "Participation au R&D et veille technologique", "Versionning des projets avec Git", "Réaliser des brochures et infographies avec Adobe InDesign"],
     },
     {
         company: "Cekome",
@@ -127,6 +128,7 @@ const experiences = [
         title: "Intégrateur Web",
         description: "Premier emploi obtenu dans le milieu du Web après avoir obtenu mon Master CAWEB. Développement, intégration et graphisme de sites sous le CMS WordPress. Création d'identités visuelles (logo, webdesign, charte graphique) pour les entreprises.",
         techs: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WordPress", "Adobe Photoshop", "GIMP"],
+        tasks: ["Intégration et maintenance de sites vitrine sous WordPress", "Création d’identités visuelles, charte graphique et logos"],
     },
     {
         company: "Observatoire Régional du Tourisme d'Alsace",
@@ -135,6 +137,7 @@ const experiences = [
         title: "Apprenti consultant SEO - Rédacteur Web",
         description: "Apprentissage réalisé dans le cadre de mon Master en tant que rédacteur Web. Mes missions consistaient à promouvoir l'observatoire sur les réseaux sociaux pour les professionnels (B2B) et d'alimenter la rubrique Blog du site. J'ai été amené à concevoir des visuels et des infographies à destination des professionnels du tourisme.",
         techs: ["HTML", "CSS", "SEO", "Réseaux sociaux", "Rédaction", "Adobe Photoshop"],
+        tasks: ["Alimentation du blog en rédigeant des articles de veille à destination des professionnels du tourisme (B2B)", "Gestion des réseaux sociaux de l’Observatoire du Tourisme", "Analyse des performances SEO du site web (Analytics, Search console, SEMrush)", "Optimisation des balises méta (titres, descriptions) pour améliorer la visibilité sur les moteurs de recherche", "Référencement local et microdonnées avec Schema.org"],
     }
 ]
 
