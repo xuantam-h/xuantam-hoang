@@ -1,6 +1,5 @@
 import './Navbar.scss';
 import { useState } from 'react';
-import closeBtn from '../../assets/images/xmark-solid.svg';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,11 +8,11 @@ const Navbar = () => {
         e.preventDefault();
         setIsOpen(true);
     }
-
+    /*
     const handleCloseMenu = (e) => {
         e.preventDefault();
         setIsOpen(false);
-    }
+    }*/
 
     const handleLink = (e) => {
         setIsOpen(false);
@@ -26,16 +25,13 @@ const Navbar = () => {
                 <span></span>
                 <span></span>
             </button>
-            <div className={isOpen ? 'main-nav nav-opened' : 'main-nav nav-closed'}>
-                <button className="menu-close" onClick={handleCloseMenu}>
-                    <img src={closeBtn} alt="Close button"/>
-                </button>
+            <div className='main-nav nav-opened'>
                 <nav>
-                    <a className="nav-item" href="#" onClick={handleLink}><span>01.</span> Accueil</a>
-                    <a className="nav-item" href="#about" onClick={handleLink}><span>02.</span> À propos</a>
-                    <a className="nav-item" href="#experience" onClick={handleLink}><span>03.</span> Expérience</a>
-                    <a className="nav-item" href="#projects" onClick={handleLink}><span>04.</span> Projets</a>   
-                    <a className="nav-item" href="#contact" onClick={handleLink}><span>05.</span> Contact</a>
+                    <a className="nav-item" href="#" onClick={handleLink}>Home</a>
+                    <a className="nav-item" href="#about" onClick={handleLink}>About</a>
+                    <a className="nav-item" href="#experience" onClick={handleLink}>Experience</a>
+                    <a className="nav-item" href="#projects" onClick={handleLink}>Projects</a>   
+                    <a className="nav-item" href="#contact" onClick={handleLink}>Contact</a>
                 </nav>
             </div>
         </div>

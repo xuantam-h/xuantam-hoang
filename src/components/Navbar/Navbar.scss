@@ -11,10 +11,11 @@
         span{
             background-color: $primary;
             width: 15px;
-            height: 2px;
+            height: 4px;
             display: block;
             margin-bottom: 10px;
             transition: width 300ms ease-in-out;
+            border-radius: $b-radius;
             @include tablet{
                 width: 25px;
             }
@@ -37,7 +38,7 @@
             }
         }
         @include tablet{
-
+            display: none;
         }
     }
     &-close{
@@ -54,7 +55,7 @@
 
 
 .main-nav{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -63,24 +64,32 @@
     width: 100%;
     height: 100%;
     z-index: 2;
-    background-color: rgba($black,0.99);
-    clip-path: circle(75%);
-    transition: clip-path 300ms ease-in-out;
+    background-color: $primary;
     opacity: 1;
+
+    @include tablet{
+        display: flex;
+        width: 3.125rem;
+    }
 
     nav{
         display: flex;
         flex-direction: column;
+        gap:1.5rem;
+        @include tablet{
+            flex-direction: row;
+            transform:rotate(-90deg);
+        }
     }
     a{
         text-decoration: none;
         color:$white;
         font-family: $heading-font;
-        font-size: 3rem;
+        font-size: 1rem;
         transition: all 250ms ease-in-out;
 
         @include tablet{
-            font-size: 4rem;
+            font-size: 1rem;
         }
 
         span{
