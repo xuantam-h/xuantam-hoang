@@ -84,6 +84,16 @@
         margin-top:2rem;
     }
 
+    .project-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 20px;
+            display: block;
+        }
+    }
+
     .modal{
         &-closed{
             display: none;
