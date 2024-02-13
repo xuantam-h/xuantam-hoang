@@ -87,6 +87,8 @@
         font-family: $heading-font;
         font-size: 1rem;
         transition: all 250ms ease-in-out;
+        text-transform: uppercase;
+        font-weight: $bold-weight;
 
         @include tablet{
             font-size: 1rem;

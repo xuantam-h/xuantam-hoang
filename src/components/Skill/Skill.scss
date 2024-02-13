@@ -20,12 +20,13 @@
     }
 
     &-item{
-        padding: .1rem .5rem;
-        border:2px solid $main-color;
+        padding: .2rem .5rem;
         border-radius: 5px;
         font-size: .8rem;
         text-transform: uppercase;
         font-weight: 800;
+        background-color: $primary;
+        color:$white;
     }
 
     &-container{
