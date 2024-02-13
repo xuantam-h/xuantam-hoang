@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/xuantam-hoang/static/css/main.f4c38a7e.css",
-    "main.js": "/xuantam-hoang/static/js/main.dfb3a1d2.js",
+    "main.css": "/xuantam-hoang/static/css/main.3c09db9a.css",
+    "main.js": "/xuantam-hoang/static/js/main.2f311337.js",
     "static/js/787.92888226.chunk.js": "/xuantam-hoang/static/js/787.92888226.chunk.js",
     "static/media/cv-xuantam-web.pdf": "/xuantam-hoang/static/media/cv-xuantam-web.614bcbb965b1ff0438ca.pdf",
     "static/media/hero-img.webp": "/xuantam-hoang/static/media/hero-img.05bbb93ef452bc6bdb51.webp",
     "index.html": "/xuantam-hoang/index.html",
     "static/media/github-mark-white.svg": "/xuantam-hoang/static/media/github-mark-white.eb183459ed323d9f16946936ae0cd6df.svg",
     "static/media/xmark-solid.svg": "/xuantam-hoang/static/media/xmark-solid.2eb1a7d7779aaafa95205ac424cadaec.svg",
-    "static/media/collapse-arrow.svg": "/xuantam-hoang/static/media/collapse-arrow.8b9cfedc8aa43d83492ba7d14107e091.svg",
-    "main.f4c38a7e.css.map": "/xuantam-hoang/static/css/main.f4c38a7e.css.map",
-    "main.dfb3a1d2.js.map": "/xuantam-hoang/static/js/main.dfb3a1d2.js.map",
+    "static/media/collapse-arrow.svg": "/xuantam-hoang/static/media/collapse-arrow.694677b0fa65b358e184240473133fad.svg",
+    "main.3c09db9a.css.map": "/xuantam-hoang/static/css/main.3c09db9a.css.map",
+    "main.2f311337.js.map": "/xuantam-hoang/static/js/main.2f311337.js.map",
     "787.92888226.chunk.js.map": "/xuantam-hoang/static/js/787.92888226.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4c38a7e.css",
-    "static/js/main.dfb3a1d2.js"
+    "static/css/main.3c09db9a.css",
+    "static/js/main.2f311337.js"
   ]
 }
