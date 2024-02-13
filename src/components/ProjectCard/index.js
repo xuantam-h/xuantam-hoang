@@ -6,7 +6,7 @@ const ProjectCard = ({title, summary, description, tags, image, url}) => {
 
     return (
         <>
-        <div className="project-item">
+        <div className="project-item" data-aos="fade-up" data-aos-duration="600">
             <div className="project-image">
                 {image ? <img src={image} alt={title}/> : <img src="https://placehold.co/600x400" alt="Project cover"/>}
             </div>

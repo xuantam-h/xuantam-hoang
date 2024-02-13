@@ -11,19 +11,6 @@
 
     .project-item{
         position: relative;
-        border:3px solid transparent;
-        transition: border 250ms ease-in-out;
-
-        &:hover{
-            .project-overlay{
-                opacity: 1;
-            }
-            .project-image{
-                img{
-                    transform:scale(1.5);
-                }
-            }
-        }
 
         .project-overlay{
             width: 100%;
@@ -50,8 +37,8 @@
     }
 
     .project-image{
-        z-index: 0;
         overflow: hidden;
+        border: 1px solid $border-color;
         img{
             width: 100%;
             object-fit: cover;
