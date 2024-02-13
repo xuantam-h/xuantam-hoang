@@ -21,7 +21,7 @@ const ProjectCard = ({title, summary, description, tags, image, url}) => {
         <>
         <div className="project-item">
             <div className="project-image">
-                {image ? <img src={image} alt={title}/> : <img src={image} alt="Project cover"/>}
+                {image ? <img src={image} alt={title}/> : <img src="https://placehold.co/600x400" alt="Project cover"/>}
                 <div className="project-overlay">
                     <div className="project-overlay-content">
                         <h3 className="project-title">{title}</h3>
@@ -29,6 +29,17 @@ const ProjectCard = ({title, summary, description, tags, image, url}) => {
                         <Button btnClass={"btn btn-primary"} onClick={handleModal}>Voir plus</Button>
                     </div>
                 </div>
+            </div>
+            <div className='project-description'>
+                <h3 className="project-title">{title}</h3>
+                <ul className="project-tags">
+                    {tags.map((tag,index) => 
+                        <Tag 
+                            content={tag}
+                            key={index}
+                        />
+                    )}
+                </ul>
             </div>
         </div>
         <div className={isModal ? "project-modal modal-opened" : "project-modal modal-closed"}>
