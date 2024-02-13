@@ -1,10 +1,10 @@
 import './Button.scss';
 
-const Button = ({btnClass, children, onClick}) => {
+const Button = ({btnClass, children, btnHref, btnTarget, btnRel}) => {
     return (
-        <button className={btnClass} onClick={onClick}>
+        <a className={btnClass} href={btnHref} target={btnTarget} rel={btnRel}>
             {children}
-        </button>
+        </a>
     );
 };
 
