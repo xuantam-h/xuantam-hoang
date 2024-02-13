@@ -26,7 +26,7 @@ const ProjectCard = ({title, summary, description, tags, image, url}) => {
                     <div className="project-overlay-content">
                         <h3 className="project-title">{title}</h3>
                         <p className="project-description">{summary}</p>
-                        <Button btnClass={"btn"} onClick={handleModal}>Voir plus</Button>
+                        <Button btnClass={"btn btn-primary"} onClick={handleModal}>Voir plus</Button>
                     </div>
                 </div>
             </div>
