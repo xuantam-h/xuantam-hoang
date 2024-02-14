@@ -66,6 +66,10 @@ strong{
 .padding-global{
     padding-left:5%;
     padding-right:5%;
+    @include tablet{
+        padding-left:10%;
+        padding-right:10%;   
+    }
 }
 
 section{

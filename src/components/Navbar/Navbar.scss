@@ -50,12 +50,15 @@
         top:1.5rem;
         right: 5%;
         width: 20px;
+        @include tablet{
+            display: none;
+        }
     }
 }
 
 
 .main-nav{
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -68,7 +71,6 @@
     opacity: 1;
 
     @include tablet{
-        display: flex;
         width: 3.125rem;
     }
 
@@ -85,7 +87,7 @@
         text-decoration: none;
         color:$white;
         font-family: $heading-font;
-        font-size: 1rem;
+        font-size: 2rem;
         transition: all 250ms ease-in-out;
         text-transform: uppercase;
         font-weight: $bold-weight;
@@ -106,4 +108,7 @@
 
 .nav-closed{
     clip-path: circle(0% at 100% 0);
+    @include tablet{
+        clip-path: none;
+    }
 }

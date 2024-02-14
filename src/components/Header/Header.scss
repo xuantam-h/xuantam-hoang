@@ -2,12 +2,13 @@
 
 .main-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding:1rem 5%;
     box-sizing: border-box;
     @include tablet{
         position: fixed;
         width: 100%;
+        padding:1rem 10%;
     }
 }

@@ -1,5 +1,6 @@
 import './Navbar.scss';
 import { useState } from 'react';
+import closeBtn from '../../assets/images/xmark-solid.svg';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -8,11 +9,11 @@ const Navbar = () => {
         e.preventDefault();
         setIsOpen(true);
     }
-    /*
+    
     const handleCloseMenu = (e) => {
         e.preventDefault();
         setIsOpen(false);
-    }*/
+    }
 
     const handleLink = (e) => {
         setIsOpen(false);
@@ -25,7 +26,10 @@ const Navbar = () => {
                 <span></span>
                 <span></span>
             </button>
-            <div className='main-nav nav-opened'>
+            <div className={isOpen ? 'main-nav nav-opened' : 'main-nav nav-closed'}>
+                <button className="menu-close" onClick={handleCloseMenu}>
+                    <img src={closeBtn} alt="Close button"/>
+                </button>
                 <nav>
                     <a className="nav-item" href="#" onClick={handleLink}>Home</a>
                     <a className="nav-item" href="#about" onClick={handleLink}>About</a>

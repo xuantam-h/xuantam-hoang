@@ -9,6 +9,11 @@
             gap:5rem;
         }
     }
+    h2{
+        @include tablet{
+            max-width: 90%;
+        }
+    }
 }
 
 .about-sidebar{
