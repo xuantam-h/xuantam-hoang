@@ -1,3 +1,5 @@
+import './Contact.scss';
+
 const Contact = () => {
     return (
         <section id="contact" className="padding-global text-center">

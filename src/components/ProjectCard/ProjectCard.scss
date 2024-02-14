@@ -36,6 +36,7 @@
         }
     }
     .project-link{
+        transition: all 250ms ease-in-out;
         &:hover{
             filter:brightness(0.5);
         }
