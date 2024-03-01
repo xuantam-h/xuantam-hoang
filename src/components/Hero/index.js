@@ -23,7 +23,7 @@ const Hero = () => {
                 <h2>Développeur Front-End</h2>
                 <div className="hero-cta flex-container flex-vertical-center" data-aos="fade-up" data-aos-duration="600">
                     <Button btnClass={"btn btn-primary"} btnHref={ResumePDF} btnTarget={"_blank"} btnRel={"noreferrer"}>Télécharger mon CV</Button>
-                    <Button btnClass={"btn btn-secondary"} btnHref={social[1].url} btnTarget={"_blank"} btnRel={"noreferrer"}>GitHub</Button>
+                    <Button btnClass={"btn btn-secondary"} btnHref={social[0].url} btnTarget={"_blank"} btnRel={"noreferrer"}>GitHub</Button>
                 </div>
             </div>
         </section>
