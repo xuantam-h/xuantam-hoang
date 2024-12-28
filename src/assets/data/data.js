@@ -4,7 +4,7 @@ const frontSkills = [
     'HTML',
     'CSS',
     'PHP',
-    'Sass',
+    'SASS',
     /*
     'Git',
     'React',
@@ -112,6 +112,15 @@ const social = [
 ]
 
 const experiences = [
+    {
+        company: "Agence K4",
+        year: "2024-2025",
+        location: "Strasbourg (67)",
+        title: "Développeur Web - Intégrateur Web",
+        description: "J'ai été amené à rejoindre cette agence Web à taille humaine pendant un an. A l'aide du CMS WordPress et du CMS Prima créé sur-mesure, j'ai été chargé de développer, intégrer et gérer la maintenance de sites vitrines et e-commerce. En plus de mes missions d'intégrateur, j'ai également eu l'opportunité de traduire et de localiser des sites des clients de l'anglais vers le français. Je me servais également des outils de PAO (Adobe Photoshop, Adobe InDesign) pour réaliser des brochures et créer des visuels à destination des newsletters.",
+        techs: ["HTML", "CSS", "JavaScript", "PHP", "Twig", "MySQL", "WordPress", "Drupal", "Bootstrap", "Adobe XD", "Figma", "Adobe Photoshop"],
+        tasks: ["Intégration et maintenance de sites vitrine et e-commerce sous WordPress, Joomla! et Prima", "Création d’un thème enfant sous WordPress", "Intégration de maquettes réalisées sous Figma et Adobe XD", "Intégration de pages de contenu sous le plugin Visual Composer", "Intégration et mise à jour de mails transactionnels", "Participation au R&D et veille technologique", "Versionning des projets avec Git", "Réaliser des brochures et infographies avec Adobe InDesign"],
+    },
     {
         company: "Publicore",
         year: "2021-2022",
