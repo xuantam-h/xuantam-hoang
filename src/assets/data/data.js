@@ -114,7 +114,7 @@ const social = [
 const experiences = [
     {
         company: "Agence K4",
-        year: "2024-2025",
+        year: "2024-maintenant",
         location: "Strasbourg (67)",
         title: "Développeur Web - Intégrateur Web",
         description: "J'ai été amené à rejoindre cette agence Web à taille humaine pendant un an. A l'aide du CMS WordPress et du CMS Prima créé sur-mesure, j'ai été chargé de développer, intégrer et gérer la maintenance de sites vitrines et e-commerce. En plus de mes missions d'intégrateur, j'ai également eu l'opportunité de traduire et de localiser des sites des clients de l'anglais vers le français. Je me servais également des outils de PAO (Adobe Photoshop, Adobe InDesign) pour réaliser des brochures et créer des visuels à destination des newsletters.",
