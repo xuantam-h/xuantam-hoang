@@ -88,46 +88,6 @@ const projects = [
         summary: "Projet de création d'une application bancaire sous React, gestion des states avec Redux, appels API avec Redux Toolkit, gestion des utilisateurs et dashboard",
         description: "Création d'une application bancaire avec Create React App (CRA). La gestion des states se fait avec Redux. Authentification des utilisateurs avec token (JWT) et gestion du profil. Appel API avec RTK et création d'endpoints au niveau du Swagger pour gérer les transactions bancaires.",
     },
-    {
-        name: "Kasa",
-        tags: ["HTML", "CSS", "React", "React-router"],
-        url: "https://github.com/xuantam-h/kasa-react",
-        image: "./project-kasa.webp",
-        summary: "Projet d'un site d'agence immobilière utilisant React. Intégration fidèle des maquettes. Gestion des routes avec React-router",
-        description: "Projet d'un site d'agence immobilière utilisant React. Intégration fidèle des maquettes. Gestion des routes avec React-router.",
-    },
-    {
-        name: "77events",
-        tags: ["React", "React Developer Tools", "Jest", "React Testing Library"],
-        url: "https://github.com/xuantam-h/77events",
-        image: "./project-77events.webp",
-        summary: "Projet de debug d'application React et création de tests unitaires et fonctionnels avec Jest et React Testing Library",
-        description: "Projet de debug d'application React d'une agence évènementielle. Utilisation de React Developer Tools. Création de tests unitaires et d'intégrations sous Jest et React Testing Library.",
-    },
-    {
-        name: "Sophie Bluel",
-        tags: ["HTML", "CSS", "JavaScript", "Swagger", "Node.js"],
-        url: "https://github.com/xuantam-h/portfolio-sophie-bluel",
-        image: "./project-sophie.webp",
-        summary: "Projet de création d'une page administration. Appel API pour ajouter, supprimer des travaux de l'architecte",
-        description: "Projet de création d'une page administration en JavaScript. Appels API pour l'authentification utilisateur utilisant la méthode JWT, ajouter ou supprimer des travaux de l'architecte à travers une modale accessible lorsque l'utilisateur est authentifié.",
-    },
-    {
-        name: "Oh my Food !",
-        tags: ["HTML", "CSS", "Responsive Web Design", "Animations"],
-        url: "https://github.com/xuantam-h/p4-ohmyfood",
-        image: "./project-ohmyfood.webp",
-        summary: "Projet d'intégration d'un site de livraison de plats en HTML/CSS à partir d'une maquette Figma. Approche mobile-first et création d'animations uniques (loader)",
-        description: "Projet d'intégration d'un site de livraison de plats en HTML/CSS à partir d'une maquette Figma. Approche mobile-first et création d'animations uniques (loader)",
-    },
-    {
-        name: "Nina Carducci",
-        tags: ["SEO", "Rich Snippet", "WAVE", "Référencement local", "Schema.org", "Minification"],
-        url: "https://github.com/xuantam-h/ninacarducci",
-        image: "./project-nina-carducci.webp",
-        summary: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site.",
-        description: "Optimisation du référencement du site d'une photographe. Amélioration du rapport Lighthouse et réduction du temps de chargement du site (Accessibilité, taille et poids des images, ). Ajout du référencement local et microdonnées avec Schema.org. Ajouter les metas pour les réseaux sociaux pour contrôler l'affichage des posts partagés. Minification des fichiers JS et CSS pour améliorer les performances.",
-    },
 ]
 
 const social = [
