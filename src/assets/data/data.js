@@ -60,7 +60,7 @@ const projects = [
         name: "Elite Sport performance",
         tags: ["HTML", "CSS", "JS", "PHP", "WordPress", "ACF Pro", "Bootstrap", "Adobe XD"],
         url: "https://elitesportperformance.fr/operation-coach-sportif/",
-        image: "./project-ikea.webp",
+        image: "./project-elite.webp",
         summary: "Projet de création d'un CV inspiré par une page produit IKEA. HTML/CSS/Tailwind CSS",
         description: "Intégration d'un CV entièrement en HTML/CSS/Tailwind CSS inspiré d'une page produit IKEA",
     },
