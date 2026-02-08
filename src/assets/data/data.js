@@ -41,6 +41,30 @@ const toolsSkills = [
 
 const projects = [
     {
+        name: "Agence K4",
+        tags: ["HTML", "CSS", "JS", "PHP", "WordPress", "ACF Pro", "Bootstrap", "Adobe XD"],
+        url: "https://github.com/xuantam-h/ikea-resume",
+        image: "./project-ikea.webp",
+        summary: "Projet de création d'un CV inspiré par une page produit IKEA. HTML/CSS/Tailwind CSS",
+        description: "Intégration d'un CV entièrement en HTML/CSS/Tailwind CSS inspiré d'une page produit IKEA",
+    },
+    {
+        name: "Beausite Immobilier",
+        tags: ["HTML", "CSS", "JS", "PHP", "WordPress", "Cron", "Google Maps API", "ACF Pro", "Bootstrap", "Adobe XD"],
+        url: "https://github.com/xuantam-h/ikea-resume",
+        image: "./project-ikea.webp",
+        summary: "Projet de création d'un CV inspiré par une page produit IKEA. HTML/CSS/Tailwind CSS",
+        description: "Intégration d'un CV entièrement en HTML/CSS/Tailwind CSS inspiré d'une page produit IKEA",
+    },
+    {
+        name: "Elite Sport performance",
+        tags: ["HTML", "CSS", "JS", "PHP", "WordPress", "ACF Pro", "Bootstrap", "Adobe XD"],
+        url: "https://github.com/xuantam-h/ikea-resume",
+        image: "./project-ikea.webp",
+        summary: "Projet de création d'un CV inspiré par une page produit IKEA. HTML/CSS/Tailwind CSS",
+        description: "Intégration d'un CV entièrement en HTML/CSS/Tailwind CSS inspiré d'une page produit IKEA",
+    },
+    {
         name: "Portfolio Ikea",
         tags: ["HTML", "CSS", "Tailwind CSS"],
         url: "https://github.com/xuantam-h/ikea-resume",
@@ -113,13 +137,22 @@ const social = [
 
 const experiences = [
     {
+        company: "Banque Nationale du Canada (BNC)",
+        year: "2025-11/2025",
+        location: "Montréal (QC)",
+        title: "Développeur Web - Intégrateur Web",
+        description: "J'ai été amené à rejoindre cette agence Web à taille humaine pendant un an. A l'aide du CMS WordPress et du CMS Prima créé sur-mesure, j'ai été chargé de développer, intégrer et gérer la maintenance de sites vitrines et e-commerce. En plus de mes missions d'intégrateur, j'ai également eu l'opportunité de traduire et de localiser des sites des clients de l'anglais vers le français. Je me servais également des outils de PAO (Adobe Photoshop, Adobe InDesign) pour réaliser des brochures et créer des visuels à destination des newsletters.",
+        techs: ["HTML", "CSS", "JavaScript", "PHP", "Adobe Experience Manager (AEM)", "Adobe XD", "Figma"],
+        tasks: ["Intégration et maintenance du site sous Adobe Experience Manager (AEM)", "Développement et maintenance d’interfaces web responsives et accessibles", "Optimisation des performances et compatibilité multi-navigateurs"],
+    },
+    {
         company: "Agence K4",
-        year: "2024-maintenant",
+        year: "2024-03/2025",
         location: "Strasbourg (67)",
         title: "Développeur Web - Intégrateur Web",
         description: "J'ai été amené à rejoindre cette agence Web à taille humaine pendant un an. A l'aide du CMS WordPress et du CMS Prima créé sur-mesure, j'ai été chargé de développer, intégrer et gérer la maintenance de sites vitrines et e-commerce. En plus de mes missions d'intégrateur, j'ai également eu l'opportunité de traduire et de localiser des sites des clients de l'anglais vers le français. Je me servais également des outils de PAO (Adobe Photoshop, Adobe InDesign) pour réaliser des brochures et créer des visuels à destination des newsletters.",
         techs: ["HTML", "CSS", "JavaScript", "PHP", "Twig", "MySQL", "WordPress", "Drupal", "Bootstrap", "Adobe XD", "Figma", "Adobe Photoshop"],
-        tasks: ["Intégration et maintenance de sites vitrine et e-commerce sous WordPress, Joomla! et Prima", "Création d’un thème enfant sous WordPress", "Intégration de maquettes réalisées sous Figma et Adobe XD", "Intégration de pages de contenu sous le plugin Visual Composer", "Intégration et mise à jour de mails transactionnels", "Participation au R&D et veille technologique", "Versionning des projets avec Git", "Réaliser des brochures et infographies avec Adobe InDesign"],
+        tasks: ["Intégration et maintenance de sites vitrine et e-commerce sous WordPress, Drupal et Prestashop", "Création de thèmes WP sur-mesure from scratch", "Traitement de tickets client et support technique mensuel", "Intégration de maquettes réalisées sous Figma et Adobe XD", "Optimisation SEO et performances des sites", "Participation au chantier R&D et veille technologique active", "Versionning des projets avec Git", " Intégration d’infolettres avec le framework de mail responsive MJML"],
     },
     {
         company: "Publicore",

@@ -1,5 +1,5 @@
 import './Hero.scss';
-import ResumePDF from '../../assets/pdf/cv-xuantam-web.pdf';
+import ResumePDF from '../../assets/pdf/cv-xuantam-hoang-dev.pdf';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
