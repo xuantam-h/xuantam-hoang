@@ -65,6 +65,14 @@ const projects = [
         description: "Intégration d'un CV entièrement en HTML/CSS/Tailwind CSS inspiré d'une page produit IKEA",
     },
     {
+        name: "Ritoni",
+        tags: ["HTML", "CSS", "JS", "PHP", "WordPress", "ACF Pro", "Bootstrap", "Adobe XD"],
+        url: "/",
+        image: "./project-ritoni.webp",
+        summary: "Projet de création d'un CV inspiré par une page produit IKEA. HTML/CSS/Tailwind CSS",
+        description: "Intégration d'un CV entièrement en HTML/CSS/Tailwind CSS inspiré d'une page produit IKEA",
+    },
+    {
         name: "Portfolio Ikea",
         tags: ["HTML", "CSS", "Tailwind CSS"],
         url: "https://github.com/xuantam-h/ikea-resume",
